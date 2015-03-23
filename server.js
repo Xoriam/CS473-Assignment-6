@@ -1,4 +1,4 @@
-// Author: Yuri V.S
+// Author: Mario Andrade, Yuri V.S
 // Source: Chris Danan, Sarah Lee
 //
 // CPSC473 Assignment 6 - build the client-side of a web application to play
