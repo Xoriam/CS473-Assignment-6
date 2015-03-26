@@ -1,32 +1,44 @@
 <!DOCTYPE html>
-<html>
-	<head>
+<!--
 
-		<title>SPOCK!!!</title>
-	</head>
-	<body>
-		<header>
-			<h1>Let's play Rock, Paper, Scissors, Lizard, Spock!</h1>
-		</header>
-		<main>
-			<div id="button-area">
-				<!--JS will initialize the buttons!
-				<button>Rock</button>
-				<button>Paper</button>
-				<button>Scissors</button>
-				<button>Lizard</button>
-				<button>Spock</button>
-				-->
-			</div>
+/*
+ * CPSC473 Assignment 6
+ * Mario Andrade & Yuri Van Steenburg
+ * Consulted by : Henry Le
+ *
+ */
 
-			<div id="results">
-				<!-- JS will display the results-->
-			</div>
-		</main>
-		
+-->
 
-		<script src = "http://code.jquery.com/jquery-2.0.3.min.js"></script>
-		<script src = "javascripts/app.js"></script> 
 
-	</body>
+<html lang="en">
+<head>
+    <title>Rock, Paper, Scissors, Lizard, Spock!</title>
+    <!-- Bootstrap - CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+ 
+    <h2><span class="label label-default">Rock, Paper, Scissors, Lizard, Spock!</span></h2>
+    <p>by Mario & Yuri</p>
+    <br>
+
+    <button id = "rock" class = "btn btn-primary">Rock</button>
+    <button id = "paper" class = "btn btn-success">Paper</button>
+    <button id = "scissors" class = "btn btn-info">Scissors</button>
+    <button id = "lizard" class = "btn btn-warning">Lizard</button>
+    <button id = "spock" class = "btn btn-danger">Spock</button>
+   
+    <div>
+        <pre id = "result"> </pre>
+    </div>
+
+    <!-- for jquery -->
+    <script src = "http://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <!-- for ajax -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- for javascripts -->
+    <script src = "javascripts/app.js"></script>
+</body>
 </html>
